@@ -1,14 +1,21 @@
 package com.example.andri.myapplication;
 
+import android.app.Dialog;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.EditText;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
+import android.widget.Toast;
 import android.widget.Toolbar;
 
 public class MainActivity extends AppCompatActivity {
@@ -37,6 +44,8 @@ public class MainActivity extends AppCompatActivity {
         //relativeLayout.addView(inflate);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setActionBar(toolbar);
+
+
 
     }
 
